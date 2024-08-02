@@ -71,6 +71,11 @@ pH: 6.5
 Rainfall: 200
 Predicted crop: Wheat
 
+Credits:
+ Mrudula Arvikar
+ Shreya Ambeti
+ Aditi Jagtap
+ 
 License
 This project is licensed under the MIT License.
 
