@@ -2,20 +2,11 @@
 
 This project aims to predict the most suitable crop based on soil nutrient values (N, P, K), temperature, humidity, pH, and rainfall using a Random Forest Classifier. The NPK values are obtained from hardware consisting of an Arduino Uno R3, DHT11 sensor, pH sensor, NPK sensor, and an OLED display.
 
-Table of Contents
-Overview
-Hardware Components
-Software Components
-Installation
-Usage
-Contributing
-License
 
-
-Overview
+**Overview**
 This project leverages a Random Forest Classifier to predict the best crop to plant based on real-time soil and environmental data. The data is collected using an Arduino setup, processed, and then fed into a machine learning model for prediction.
 
-Hardware Components
+**Hardware Components**
 Arduino Uno R3
 DHT11 Sensor (for temperature and humidity)
 pH Sensor
@@ -23,14 +14,14 @@ NPK Sensor
 OLED Display
 
 
-Software Components
+**Software Components**
 Python 3.x
 Pandas
 Scikit-learn
 Matplotlib (for visualization, if needed)
 
 
-Installation
+**Installation**
 
 Clone the repository:
 
@@ -47,7 +38,7 @@ Open arduino_code.ino  in the Arduino IDE.
 Connect your Arduino Uno R3 and upload the code.
 
 
-Usage
+**Usage**
 Run the Python Script:
 
 python crop_prediction.py
@@ -71,11 +62,11 @@ pH: 6.5
 Rainfall: 200
 Predicted crop: Wheat
 
-Credits:
+**Credits:**
  Mrudula Arvikar
  Shreya Ambeti
  Aditi Jagtap
  
-License
+**License**
 This project is licensed under the MIT License.
 
